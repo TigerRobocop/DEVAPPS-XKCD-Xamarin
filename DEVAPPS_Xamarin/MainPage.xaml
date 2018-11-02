@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:DEVAPPS_Xamarin" 
+             x:Class="DEVAPPS_Xamarin.MainPage">
+    
+    <local:Daily Title="Daily XKCD"/>
+    <local:Favorites Title="Favorites"/>
+       <!-- <Label x:Name="lblLoading"/>
+        <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"   /> -->
+              
+        
+         <!--<ListView x:Name="listPhotos" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Image WidthRequest="150" HeightRequest="150"
+                               Source="{Binding}"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+</TabbedPage>

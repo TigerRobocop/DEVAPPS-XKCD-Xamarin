@@ -1,0 +1,2 @@
+android.app.Application
+com.trc.liv.DEVAPPS_Xamarin

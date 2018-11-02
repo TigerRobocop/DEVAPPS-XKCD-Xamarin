@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{196AD0E5-36CC-4EC3-BB94-23FB5139CE0F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/MainPage.xaml">
+    <Files>
+      <File FileName="DEVAPPS_Xamarin/MainPage.xaml.cs" Line="37" Column="42" />
+      <File FileName="DEVAPPS_Xamarin/MainPage.xaml" Line="21" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/Daily.xaml" Line="6" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/Daily.xaml.cs" Line="1" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/Favorites.xaml" Line="6" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/Favorites.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DEVAPPS__Xamarin.iOS FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DEVAPPS__Xamarin.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>
