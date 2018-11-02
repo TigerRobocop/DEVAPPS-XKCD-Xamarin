@@ -11,5 +11,19 @@ namespace DEVAPPS_Xamarin
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            LoadList();
+        }
+
+        void LoadList(){
+            var data = App.DB.Table<XKCD>();
+            List<XKCD> result = (from p in data
+                                   orderby p.num
+                                   select p).ToList();
+
+            listFavorites.ItemsSource = result;
+        }
     }
 }

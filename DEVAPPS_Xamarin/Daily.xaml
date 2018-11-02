@@ -5,7 +5,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="lblLoading"/>
-            <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"   />
+            <Label x:Name="lblTitle"/>
+            <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"  >
+                <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                                Tapped="Handle_Tapped"
+                                  />
+                 </Image.GestureRecognizers>
+            </Image>
             <Button x:Name="btnReload" Text="Reload" Clicked="BtnReload_Clicked"/>
             <Button x:Name="btnAdd" Text="Add to Favorites" Clicked="BtnAdd_Clicked"/>
         </StackLayout>

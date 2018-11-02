@@ -4,6 +4,12 @@
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/mscorlib.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLite-net.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Core.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Xml.dll
@@ -63,4 +69,6 @@
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/System.Globalization.dll
 /Users/liviasouza/Desktop/LIV_MISC/DEVAPPS/Xamarin/DEVAPPS_Xamarin/DEVAPPS_Xamarin.Android/obj/Debug/android/assets/Mono.Security.dll

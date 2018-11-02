@@ -1,8 +1,12 @@
 ﻿<Properties StartupConfiguration="{196AD0E5-36CC-4EC3-BB94-23FB5139CE0F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/XKCD.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/Daily.xaml.cs">
     <Files>
-      <File FileName="DEVAPPS_Xamarin/App.xaml.cs" Line="28" Column="39" />
-      <File FileName="DEVAPPS_Xamarin/XKCD.cs" Line="9" Column="6" />
+      <File FileName="DEVAPPS_Xamarin/MainPage.xaml.cs" Line="18" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/Daily.xaml.cs" Line="68" Column="17" />
+      <File FileName="DEVAPPS_Xamarin/Daily.xaml" Line="8" Column="39" />
+      <File FileName="DEVAPPS_Xamarin/Favorites.xaml.cs" Line="25" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/MainPage.xaml" Line="23" Column="14" />
+      <File FileName="DEVAPPS_Xamarin/Favorites.xaml" Line="7" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,7 +14,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DEVAPPS__Xamarin.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DEVAPPS__Xamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9BE3133D-B3D5-4724-A350-72DBC255EBF1" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DEVAPPS__Xamarin.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </Properties>
