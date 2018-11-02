@@ -14,12 +14,28 @@ namespace DEVAPPS_Xamarin
         public Daily()
         {
             InitializeComponent();
+            LoadImage();
+        }
+
+
+        void LoadImage() {
             Uri uri = new Uri("https://xkcd.com/info.0.json");
             request = WebRequest.Create(uri);
 
             lblLoading.Text = "lblLoading...";
 
             request.BeginGetResponse(HandleAsyncCallback, null);
+        }
+
+        void BtnReload_Clicked(object sender, System.EventArgs e)
+        {
+            imgDaily.Source = "";
+            LoadImage();
+        }
+
+        void BtnAdd_Clicked(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         void HandleAsyncCallback(IAsyncResult ar)

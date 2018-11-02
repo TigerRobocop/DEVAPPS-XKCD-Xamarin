@@ -5,7 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="lblLoading"/>
-        <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"   />
+            <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"   />
+            <Button x:Name="btnReload" Text="Reload" Clicked="BtnReload_Clicked"/>
+            <Button x:Name="btnAdd" Text="Add to Favorites" Clicked="BtnAdd_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
