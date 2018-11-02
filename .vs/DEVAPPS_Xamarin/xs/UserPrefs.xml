@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{196AD0E5-36CC-4EC3-BB94-23FB5139CE0F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/IDBPath.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/XKCD.cs">
     <Files>
-      <File FileName="DEVAPPS_Xamarin/App.xaml.cs" Line="2" Column="14" />
-      <File FileName="DEVAPPS_Xamarin.Android/DBPath.cs" Line="13" Column="49" />
-      <File FileName="DEVAPPS_Xamarin.iOS/DBPath.cs" Line="17" Column="1" />
-      <File FileName="DEVAPPS_Xamarin/IDBPath.cs" Line="5" Column="6" />
+      <File FileName="DEVAPPS_Xamarin/App.xaml.cs" Line="28" Column="39" />
+      <File FileName="DEVAPPS_Xamarin/XKCD.cs" Line="9" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

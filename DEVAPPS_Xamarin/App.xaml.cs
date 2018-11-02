@@ -8,12 +8,31 @@ namespace DEVAPPS_Xamarin
 {
     public partial class App : Application
     {
+        static SQLiteConnection _db;
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new MainPage();
         }
+
+        public static SQLiteConnection DB
+        {
+            get
+            {
+                if (_db is null)
+                {
+                    string path = DependencyService.Get<IDBPath>().GetPath();
+                    _db = new SQLiteConnection(path);
+                    _db.CreateTable<XKCD>();
+                    return _db;
+                }
+                return _db;
+
+            }
+        }
+
 
         protected override void OnStart()
         {
