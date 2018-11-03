@@ -6,18 +6,4 @@
     
     <local:Daily Title="Daily XKCD"/>
     <local:Favorites Title="Favorites"/>
-       <!-- <Label x:Name="lblLoading"/>
-        <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"   /> -->
-              
-        
-         <!--<ListView x:Name="listPhotos" VerticalOptions="FillAndExpand">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Image WidthRequest="150" HeightRequest="150"
-                               Source="{Binding}"/>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>-->
 </TabbedPage>

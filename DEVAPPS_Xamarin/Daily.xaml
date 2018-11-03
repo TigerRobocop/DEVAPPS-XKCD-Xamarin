@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DEVAPPS_Xamarin" 
              x:Class="DEVAPPS_Xamarin.Daily">
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="lblLoading"/>
-            <Label x:Name="lblTitle"/>
+            <Label FontAttributes="{Static local:Constants.fontBold}" x:Name="lblTitle"/>
             <Image x:Name="imgDaily" WidthRequest="150" HeightRequest="150"  >
                 <Image.GestureRecognizers>
                         <TapGestureRecognizer
