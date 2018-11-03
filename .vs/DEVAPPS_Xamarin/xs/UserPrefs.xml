@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{196AD0E5-36CC-4EC3-BB94-23FB5139CE0F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/Daily.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DEVAPPS_Xamarin/Favorites.xaml.cs">
     <Files>
-      <File FileName="DEVAPPS_Xamarin/Constants.cs" Line="3" Column="1" />
-      <File FileName="DEVAPPS_Xamarin/Daily.xaml" Line="3" Column="69" />
-      <File FileName="DEVAPPS_Xamarin/Favorites.xaml" Line="15" Column="1" />
-      <File FileName="DEVAPPS_Xamarin/MainPage.xaml" Line="4" Column="58" />
+      <File FileName="DEVAPPS_Xamarin/Daily.xaml.cs" Line="42" Column="13" />
+      <File FileName="DEVAPPS_Xamarin/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="DEVAPPS_Xamarin/DB.cs" Line="37" Column="16" />
+      <File FileName="DEVAPPS_Xamarin/Favorites.xaml.cs" Line="21" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

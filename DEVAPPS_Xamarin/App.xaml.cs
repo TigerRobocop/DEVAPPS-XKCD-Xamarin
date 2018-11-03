@@ -1,6 +1,4 @@
-﻿using System;
-using SQLite;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -8,7 +6,8 @@ namespace DEVAPPS_Xamarin
 {
     public partial class App : Application
     {
-        static SQLiteConnection _db;
+
+        public const string LastSaved = "LAST_SAVED";
 
         public App()
         {
@@ -16,23 +15,6 @@ namespace DEVAPPS_Xamarin
 
             MainPage = new MainPage();
         }
-
-        public static SQLiteConnection DB
-        {
-            get
-            {
-                if (_db is null)
-                {
-                    string path = DependencyService.Get<IDBPath>().GetPath();
-                    _db = new SQLiteConnection(path);
-                    _db.CreateTable<XKCD>();
-                    return _db;
-                }
-                return _db;
-
-            }
-        }
-
 
         protected override void OnStart()
         {

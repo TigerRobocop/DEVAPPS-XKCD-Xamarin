@@ -11,11 +11,14 @@ namespace DEVAPPS_Xamarin
     {
         WebRequest request;
         XKCD dailyImage;
+        DB db;
 
         public Daily()
         {
             InitializeComponent();
             LoadImage();
+
+            db = new DB();
         }
 
         void LoadImage() {
@@ -36,16 +39,17 @@ namespace DEVAPPS_Xamarin
 
         void BtnAdd_Clicked(object sender, System.EventArgs e)
         {
-            var data = App.DB.Table<XKCD>();
-            List<XKCD> result = (from p in data
-                                 where p.num == dailyImage.num
-                                 select p).ToList();
 
-            if (result.Count > 0) {
+            var settings = Application.Current.Properties;
+            if (settings.ContainsKey(App.LastSaved) && 
+                Convert.ToInt32(settings[App.LastSaved]) <= Convert.ToInt32(dailyImage.num))
+            {
                 DisplayAlert("Save", "Already favorited", "OK");
-            } else {
+            }
 
-                App.DB.Insert(dailyImage);
+            else {
+                Application.Current.Properties[App.LastSaved] = dailyImage.num;
+                db.Save(dailyImage);
                 DisplayAlert("Save", "Favorited!", "OK");
             }
         }

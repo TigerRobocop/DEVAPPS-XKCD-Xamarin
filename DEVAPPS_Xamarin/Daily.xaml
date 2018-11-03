@@ -14,8 +14,8 @@
                                   />
                  </Image.GestureRecognizers>
             </Image>
-            <Button x:Name="btnReload" Text="Reload" Clicked="BtnReload_Clicked"/>
-            <Button x:Name="btnAdd" Text="Add to Favorites" Clicked="BtnAdd_Clicked"/>
+            <Button x:Name="btnReload" Text="Reload" Clicked="BtnReload_Clicked" />
+            <Button x:Name="btnAdd" Text="Add to Favorites" Clicked="BtnAdd_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

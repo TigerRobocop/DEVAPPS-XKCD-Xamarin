@@ -7,9 +7,12 @@ namespace DEVAPPS_Xamarin
 {
     public partial class Favorites : ContentPage
     {
+        DB db;
+
         public Favorites()
         {
             InitializeComponent();
+            db = new DB();
         }
 
         protected override void OnAppearing()
@@ -18,12 +21,7 @@ namespace DEVAPPS_Xamarin
         }
 
         void LoadList(){
-            var data = App.DB.Table<XKCD>();
-            List<XKCD> result = (from p in data
-                                   orderby p.num
-                                   select p).ToList();
-
-            listFavorites.ItemsSource = result;
+            listFavorites.ItemsSource = db.GetAll();
         }
     }
 }
